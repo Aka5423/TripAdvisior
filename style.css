@@ -1,0 +1,219 @@
+
+body{
+    font-family: "Gabarito", sans-serif;
+    padding:0;
+    margin:0;
+}
+
+.Navbar {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.Navbar__title img
+{
+    height: 50px;
+    width:250px;
+}
+
+.Navbar_title2{
+
+    display: flex;
+    gap: 30px;
+}
+
+.Navbar_title3{
+
+    display: flex;
+    gap: 30px;
+    margin-left: 50px;
+  
+}
+.Sign_in{
+    margin-right: 5%;
+    background-color: black;
+    color: white;
+    border-radius:20px;
+    border:solid black 1px ;
+    width: 80px;
+    height: 10px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+   
+    
+    
+}
+.Where__title
+{
+    text-align: center;
+    font-size: 30px;
+}
+.Container
+{
+display: flex;
+justify-content: space-around;
+}
+.Container_section1
+{
+display: flex;
+gap:40px;
+}
+.Container_section1 :hover
+{
+   
+    cursor: pointer;
+   
+    text-decoration:underline solid green 3px;   
+}
+.Search__Bar
+{
+    margin-top: 20px ;
+    margin-left: 250px;
+    border: solid black 2px;
+    border-radius: 30px;
+    width:60%;
+    padding: 5px;
+    gap: 10px;
+    display: flex;
+    
+
+}
+.Search__Bar input
+{
+   
+    width:60%;
+    border:none;
+    height: 20px;
+    margin-top: 5px;
+    
+}
+.Search__Bar i{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.Search__Bar input:focus{
+    outline: none;
+}
+.Search__Bar button
+{
+   
+    margin-left: 210px;
+    border-radius:20px;
+    background-color: #6EE0A2;
+    padding: 10px;
+
+}
+.Search__Bar button
+{
+    cursor:pointer;
+}
+
+.Main_image
+{
+    
+    margin-top: 5%;
+    margin-left: 15px;
+    
+}
+.Main_image img{
+    height: 500px;
+    width:1330px;
+    border-radius: 15px;
+}
+
+.Section_a1--images img{
+    height: 280px;
+    width:250px;
+    border-radius: 20px;
+}
+.Section_a1--images
+{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.Section_a1--images h1{
+
+    color:#6EE0A2;
+    
+    position: relative;
+    right:240px;
+    top:220px;
+
+}
+
+.Section_a1--images img:hover{
+cursor: pointer;
+}
+.Section_a2--images
+{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.Section_a2--images img
+{
+    height: 280px;
+    width:250px;
+    border-radius: 20px;
+    cursor:pointer;
+}
+.Section_a2--images--s1 b:hover{
+   cursor: pointer;
+   text-decoration: underline solid rgb(25, 39, 3) 5px;
+}
+.Explore__Title
+{
+    background-color: rgb(201, 195, 195);
+}
+.Explore__Title--images 
+{
+   display: flex;
+   justify-content: space-around; 
+   
+   
+}
+
+.Explore__Title--images h3:hover
+{
+text-decoration: underline solid 5px forestgreen;
+cursor:pointer;
+}
+.Footer
+{
+    background-color: antiquewhite;
+    margin-top: 7%;
+}
+.Footer_sec_one
+{
+    display: flex;
+    margin-left: 10%;
+}
+.Footer_sec_one_s2,.Footer_sec_one_s3,.Footer_sec_one_s4
+{
+    margin-left: 10%;
+
+}
+.Footer_sec_one p,h3:hover{
+text-decoration: underline solid 2px green;
+cursor: pointer;
+}
+
+.Footer_sec_two{
+    display: flex;
+}
+.Footer_sec_two p{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.Footer_sec_two img
+{
+    height: 100px;
+    width:100px;
+}
+
+
+
+
