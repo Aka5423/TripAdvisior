@@ -196,10 +196,15 @@ cursor:pointer;
     margin-left: 10%;
 
 }
-.Footer_sec_one p,h3:hover{
-text-decoration: underline solid 2px green;
+.Footer_sec_one h3:hover{
+text-decoration: underline solid 4px green;
 cursor: pointer;
 }
+.Footer_sec_one p:hover{
+    text-decoration: underline solid 2px green;
+    cursor: pointer;
+    }
+
 
 .Footer_sec_two{
     display: flex;
